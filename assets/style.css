@@ -1,3 +1,4 @@
+/* Styles for Psychic-Game */
 html, body{
 	height: 100%;
 }
@@ -5,21 +6,16 @@ body{
 	background-color: rgb(6, 20, 33);
 	background: url('background.jpg');
 	background-size: cover;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 	color: #ffffff;
-	line-height: 200%;
 	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.2em;
+	line-height: 1.7em;
 }
 .game-content{
 	text-align: center;
 	border: 6px solid #ffffff;
-	width: 75%;
-	height: 75%;
-	min-width: 350px;
-	min-height: 200px;
+	height: 55%;
+	min-height: 320px;
 	padding: 5%;
 	margin: 5%;
 }
@@ -77,12 +73,10 @@ button{
 	padding: 20px;
 	border: 1px solid #ffffff;
 	width: 60%;
-	height: 40%;
 	min-width: 250px;
-	min-height: 150px;
 	background-color: #061421;
 	text-align: center;
-	font-size: 2em;
+	font-size: 1.5em;
     display: flex;
     justify-content: center;
     align-items: center;
